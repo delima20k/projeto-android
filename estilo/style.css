@@ -213,3 +213,37 @@ footer  a {
     text-decoration: none;
 
 }
+div.calculadora{
+    position: absolute;        /*para deixar só o tamanho do conteudo ( <h1>)*/
+    background-color: rgba(0,0,0,0.8 );
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 15px;
+}
+div#resultado{
+    background-color: white; 
+    width: 380px;
+    height: 55px;
+    margin: 50px 16px 10px;
+    border-radius: 10px;
+    font-size: 40px;
+    color: black;
+    text-align:right;
+    padding-right: 20px;
+}
+
+div.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    border-radius:45px;
+    color:white;
+}
+div.botao:hover{
+    background-color: rgb(0, 0, 0);
+}
